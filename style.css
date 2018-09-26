@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777777;
+    
+    background: url("../Bootstrap-Portfolio/assets/images/concrete-texture.png")
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* MASTER HEAD */
+#masthead {
+    position: fixed;   
+    width: 100%;  
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+#logo {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* NAV BAR */
+.navbar-light {
+    background-color: #ffffff;
+    height: 80px;
+}
+
+
+.index-h2 {
+    color: #4aaaa5;
+    font-size: 30px;            
+}
+
+/* MAIN CONTAINER */
+
+.container {
+    width: 960px;
+}
+
+.main-section {
+    padding-top: 100px;
+}
+
+.jumbotron {
+    width: 960px;
+    margin-top: 18px;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+
+
+
+/* Footer */
+.fixed-bottom {
+    height: 50px;
+    margin-top: 20px;
+    padding: 0.5px;
+    background: #777777;
+    border-block-start: 5px solid #4aaaa5;
+    clear: both;
+    flex-shrink: 0; 
+    color: #dddddd;
+    text-align: center; 
+}

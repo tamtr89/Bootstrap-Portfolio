@@ -8,88 +8,84 @@
     <title>Bootstrap Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 
 </head>
 
 <body>
     <!-- Navbar -->
-    <div id="headbar">
+    <header id="masthead">
 
-        <h1>Tam Tran</h1>
+        <div class="container">
 
-        <nav>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
+            <nav class="navbar navbar-light" style="background-color: #ffffff" ;>
+                <span class="navbar-brand mb-0 h1">
+                    <a href="index.html" id="logo">Tam Tran</a>
+                </span>
 
-            </ul>
-        </nav>
-    </div>
+
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </div>
+    </header>
 
     <!-- About me content -->
 
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="main-content">
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <div class="jumbotron">
+                <h1>About me</h1>
+                <hr>
+                <img src="assets/images/tam.jpg" style="width: auto; height:200px;">
+                <p>
+                    Before the class begun, I am super excited and proud when signing up for GitHub and LinkedIn
+                    accounts as a full-stack developer. Despite all the difficulties that I went through in the
+                    Bootcamp course at UC Berkerly extension, I have learn how to code and growth to love it more every
+                    day.
 
-                    <h2 class="index-h2">About me</h2>
-                    <hr>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div id="p">
-                            <p><img src="assets/images/Pet (2).jpg" style="width: auto; height:200px;">
+                </p>
+                <p>
+                    My passion in photography actually brought me to become a developer. My dream is to build my own
+                    website that is functional and user-friendly but at the same time attractive. Something that
+                    represent me as an artist.
 
-                                Before the class begun, I am super excited and proud when signing up for GitHub and
-                                LinkedIn
-                                accounts as a full-stack developer. Despite all the difficulties that I went through in
-                                the
-                                Bootcamp course at UC Berkerly extension, I have learn how to code and growth to love
-                                it more every
-                                day.
-                                <br>
-                                <br>
-                                My passion in photography actually brought me to become a developer. My dream is to
-                                build my own
-                                website that is functional and user-friendly but at the same time attractive. Something
-                                that
-                                represent me as an artist.
+                </p>
+                <p>
+                    Moreover, I love to add my personal touch to my own product . I have a super cute chihuahua mixed
+                    named Happy. She is my source of happiness and a motivation to overcome all of the stress occur to
+                    me daily.
 
-                                Moreover, I love to add my personal touch to my own product . I have a super cute
-                                chihuahua mixed
-                                named Happy. She is my source of happiness and a motivation to overcome all of the
-                                stress occur to
-                                me daily.
-                                <br>
-                                <br>
-                                Happy really deserved to have her own web page feature her heart-melt cuteness, but I
-                                have not be able to find one templates from the archive on Wix that actually acceptable
-                                to my
-                                liking. Therefore, I am even more determine to pass this class to acquire skills that I
-                                need.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                </p>
+                <p>
+                    Happy really deserved to have her own web page feature her heart-melt cuteness, but I
+                    have not be able to find one templates from the archive on Wix that actually acceptable to my
+                    liking. Therefore, I am even more determine to pass this class to acquire skills that I need.
+                </p>
+
             </div>
-        </div>
+            </section>
+            </div>
 
-        <!-- Footer -->
-        <div class="fixed-bottom">
-            <footer class="footer">
-                Copyright &copy; 2018 Tam Tran
-            </footer>
-        </div>
+
+    <!-- Footer -->
+    <div class="fixed-bottom">
+        <footer class="footer">
+            Copyright &copy; 2018 Tam Tran
+        </footer>
+    </div>
 </body>
 
 </html>
