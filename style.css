@@ -5,46 +5,47 @@ body {
     background: url("../Bootstrap-Portfolio/assets/images/concrete-texture.png")
 }
 
-* {
-    box-sizing: border-box;
-}
 
 #logo,
 h1 {
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 
 .heading {
     color: #4aaaa5;
-    font-size: 30px;
-        
+           
+}
+
+.container {
+    width: 1024px;
 }
 
 /* MASTER HEAD */
 #masthead {
-    position: fixed;   
-    width: 100%;  
+    position: fixed;
+    width: 100%;
+    height: 10.5%;
     color: #ffffff;
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
+    z-index: 100;
 }
 
 #logo {
     background-color: #4aaaa5;
     color: #ffffff;
-    float: left;
     border-radius: 5px;
     padding: 15px;
     text-align: center;
-    font-size: 30px;
-    
+       
 }
+
 
 /* NAV BAR */
 .navbar-light {
     background-color: #ffffff;
-    height: 80px;
     
 }
 
@@ -52,27 +53,54 @@ a:hover, a:active {
     background: #4aaaa5;
 }
 
+
 /* MAIN CONTAINER */
-
-
-
-.container {
-    width: 960px;
-}
 
 .main-section {
     padding-top: 100px;
 }
 
+
 .jumbotron {
-    width: 960px;
-    margin-top: 18px;
     padding: 25px;
     background-color: #ffffff;
-    border: 1px solid #dddddd;
+    border: 1.5px solid #dddddd;
 }
 
 
+#profile-image {
+    width: 100%;
+    object-fit: contain;
+}
+
+/* ROW-COL */
+
+#master-row {
+    padding: 10px;
+}
+
+
+/* Contact Page */
+.btn-primary {
+    background-color: #4aaaa5;
+    color: #ffffff;    
+}
+
+/* Portfolio Page */
+.text-block {
+    position: relative;
+    top: 193px;
+    text-align: center;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 2px;
+    /* width: 100%; */
+}
+
+
+/* .col-4 {
+    margin: 3px;
+} */
 
 
 /* Footer */
@@ -82,25 +110,6 @@ a:hover, a:active {
     padding: 0.5px;
     background: #777777;
     border-block-start: 5px solid #4aaaa5;
-    clear: both;
-    flex-shrink: 0; 
     color: #dddddd;
     text-align: center;
-}
-
-
-/* Portfolio Page */
-.text-block {
-    position: relative;
-    top: 193px;
-    text-align: center;
-    background: #4aaaa5;
-    color: #ffffff;
-    padding: 8px;
-    width: 100%;
-}
-
-
-.col-4 {
-    margin: 8px;
 }
