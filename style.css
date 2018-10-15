@@ -97,7 +97,7 @@ a:hover, a:active {
 h4 {
     position: absolute;
     bottom: 20px;
-    width: 70%;
+    width: 80%;
     padding: 2px;
     margin-bottom: 0;
     font-weight: 300;
@@ -110,7 +110,8 @@ h4 {
 }
 
 .sub-row img {
-    width: 70%;
+    width: 80%;
+
     border: 0 none;
 }
 
