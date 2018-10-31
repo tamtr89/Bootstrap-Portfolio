@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
-    color: #777777;
+    color: beige;
     /* Background pattern from Toptal Subtle Patterns */
     background-image: url("../Bootstrap-Portfolio/assets/images/techbg-1280x960.jpg");
     background-size: 100%;
@@ -21,7 +21,8 @@ body {
 
 h1 {
     font-family: 'Fjalla One', sans-serif;
-    color: rgba(0, 0, 0, 0.774);;
+    color: rgba(0, 0, 0, 0.774);
+    text-shadow: 0 1px 3px rgb(82, 0, 0), 0 0 5px rgb(0, 255, 242);
 }
 
 .container {
@@ -29,6 +30,8 @@ h1 {
     margin: 0 auto;
     clear: both;
 }
+
+
 
 .navbar-default .navbar-nav > li > a:hover {
     color: rgba(0, 0, 0, 0.774);
@@ -60,7 +63,7 @@ h1 {
 
 .jumbotron {
     padding: 25px;
-    background-color: #ffffffda;
+    background-color: #05425aab;
     border: 1.5px solid rgba(13, 48, 82, 0.692);
     margin-top: 15px;
 }
